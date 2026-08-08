@@ -1,0 +1,1 @@
+import {Shell} from "@/components/shell";import {requireUser} from "@/lib/auth";import type {ReactNode} from "react";export default async function AdminLayout({children}:{children:ReactNode}){const user=await requireUser();return <Shell user={user}>{children}</Shell>}

@@ -1,0 +1,1 @@
+export default function Loading(){return <div className="page-loading"><div className="loading-head"><i/><i/></div><div className="loading-metrics">{[1,2,3,4].map(i=><i key={i}/>)}</div><div className="loading-panels"><i/><i/></div></div>}

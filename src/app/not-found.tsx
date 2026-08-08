@@ -1,0 +1,1 @@
+import Link from "next/link";export default function NotFound(){return <main className="auth-page"><section className="auth-card setup-card"><p className="eyebrow">Erro 404</p><h1>Página não encontrada</h1><p>O endereço pode ter sido alterado ou o conteúdo não está mais disponível.</p><Link className="button button-primary" href="/">Voltar ao PrintFlow</Link></section></main>}

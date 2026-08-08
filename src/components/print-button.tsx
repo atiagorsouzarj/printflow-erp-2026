@@ -1,0 +1,1 @@
+"use client";import { Printer } from "lucide-react";export function PrintButton({label="Imprimir cupom 80 mm"}:{label?:string}){return <button className="button button-primary no-print" onClick={()=>window.print()}><Printer size={15}/> {label}</button>}
